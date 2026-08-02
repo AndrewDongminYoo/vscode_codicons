@@ -11,6 +11,9 @@ on:
       # match beyond the plain vX.Y.Z form.
       - "v[0-9]+.[0-9]+.[0-9]+*"
 
+permissions:
+  contents: read
+
 jobs:
   publish:
     permissions:

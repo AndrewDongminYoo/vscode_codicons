@@ -1,2 +1,6 @@
 # Prettier friendly markdownlint config (all formatting rules disabled)
 extends: markdownlint/style/prettier
+# CHANGELOG.md repeats "### Added" etc. under every version heading by design;
+# siblings_only limits MD024 to duplicate headings under the same parent.
+MD024:
+  siblings_only: true
