@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.46-25 - 2026-08-22
+
+### Added
+
+- Updated icon set to @vscode/codicons@0.0.46-25.
+
 ## 0.0.46-24 - 2026-07-25
 
 ### Added

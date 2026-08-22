@@ -12,7 +12,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/plus.svg)](https://github.com/microsoft/vscode-codicons/search?q=plus)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/plus.svg)](https://github.com/microsoft/vscode-codicons/search?q=plus)
   /// Codicon icon named "plus".
   static const IconData plus = IconData(
     0xEA60,
@@ -20,7 +20,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/gist-new.svg)](https://github.com/microsoft/vscode-codicons/search?q=gist-new)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/gist-new.svg)](https://github.com/microsoft/vscode-codicons/search?q=gist-new)
   /// Codicon icon named "gist new".
   static const IconData gistNew = IconData(
     0xEA60,
@@ -28,7 +28,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/repo-create.svg)](https://github.com/microsoft/vscode-codicons/search?q=repo-create)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/repo-create.svg)](https://github.com/microsoft/vscode-codicons/search?q=repo-create)
   /// Codicon icon named "repo create".
   static const IconData repoCreate = IconData(
     0xEA60,
@@ -44,7 +44,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/light-bulb.svg)](https://github.com/microsoft/vscode-codicons/search?q=light-bulb)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/light-bulb.svg)](https://github.com/microsoft/vscode-codicons/search?q=light-bulb)
   /// Codicon icon named "light bulb".
   static const IconData lightBulb = IconData(
     0xEA61,
@@ -60,7 +60,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/repo-delete.svg)](https://github.com/microsoft/vscode-codicons/search?q=repo-delete)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/repo-delete.svg)](https://github.com/microsoft/vscode-codicons/search?q=repo-delete)
   /// Codicon icon named "repo delete".
   static const IconData repoDelete = IconData(
     0xEA62,
@@ -68,7 +68,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/gist-fork.svg)](https://github.com/microsoft/vscode-codicons/search?q=gist-fork)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/gist-fork.svg)](https://github.com/microsoft/vscode-codicons/search?q=gist-fork)
   /// Codicon icon named "gist fork".
   static const IconData gistFork = IconData(
     0xEA63,
@@ -92,7 +92,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-pull-request-abandoned.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-abandoned)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-pull-request-abandoned.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-abandoned)
   /// Codicon icon named "git pull request abandoned".
   static const IconData gitPullRequestAbandoned = IconData(
     0xEA64,
@@ -108,7 +108,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/keyboard.svg)](https://github.com/microsoft/vscode-codicons/search?q=keyboard)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/keyboard.svg)](https://github.com/microsoft/vscode-codicons/search?q=keyboard)
   /// Codicon icon named "keyboard".
   static const IconData keyboard = IconData(
     0xEA65,
@@ -124,7 +124,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-pull-request-label.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-label)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-pull-request-label.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-label)
   /// Codicon icon named "git pull request label".
   static const IconData gitPullRequestLabel = IconData(
     0xEA66,
@@ -132,7 +132,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/tag-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=tag-add)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/tag-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=tag-add)
   /// Codicon icon named "tag add".
   static const IconData tagAdd = IconData(
     0xEA66,
@@ -140,7 +140,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/tag-remove.svg)](https://github.com/microsoft/vscode-codicons/search?q=tag-remove)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/tag-remove.svg)](https://github.com/microsoft/vscode-codicons/search?q=tag-remove)
   /// Codicon icon named "tag remove".
   static const IconData tagRemove = IconData(
     0xEA66,
@@ -156,7 +156,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/person-follow.svg)](https://github.com/microsoft/vscode-codicons/search?q=person-follow)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/person-follow.svg)](https://github.com/microsoft/vscode-codicons/search?q=person-follow)
   /// Codicon icon named "person follow".
   static const IconData personFollow = IconData(
     0xEA67,
@@ -164,7 +164,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/person-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=person-outline)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/person-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=person-outline)
   /// Codicon icon named "person outline".
   static const IconData personOutline = IconData(
     0xEA67,
@@ -172,7 +172,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/person-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=person-filled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/person-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=person-filled)
   /// Codicon icon named "person filled".
   static const IconData personFilled = IconData(
     0xEA67,
@@ -196,7 +196,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/mirror-public.svg)](https://github.com/microsoft/vscode-codicons/search?q=mirror-public)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/mirror-public.svg)](https://github.com/microsoft/vscode-codicons/search?q=mirror-public)
   /// Codicon icon named "mirror public".
   static const IconData mirrorPublic = IconData(
     0xEA69,
@@ -204,7 +204,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/star.svg)](https://github.com/microsoft/vscode-codicons/search?q=star)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/star.svg)](https://github.com/microsoft/vscode-codicons/search?q=star)
   /// Codicon icon named "star".
   static const IconData star = IconData(
     0xEA6A,
@@ -212,7 +212,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/star-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=star-add)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/star-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=star-add)
   /// Codicon icon named "star add".
   static const IconData starAdd = IconData(
     0xEA6A,
@@ -220,7 +220,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/star-delete.svg)](https://github.com/microsoft/vscode-codicons/search?q=star-delete)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/star-delete.svg)](https://github.com/microsoft/vscode-codicons/search?q=star-delete)
   /// Codicon icon named "star delete".
   static const IconData starDelete = IconData(
     0xEA6A,
@@ -244,7 +244,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/comment-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=comment-add)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/comment-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=comment-add)
   /// Codicon icon named "comment add".
   static const IconData commentAdd = IconData(
     0xEA6B,
@@ -252,7 +252,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/alert.svg)](https://github.com/microsoft/vscode-codicons/search?q=alert)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/alert.svg)](https://github.com/microsoft/vscode-codicons/search?q=alert)
   /// Codicon icon named "alert".
   static const IconData alert = IconData(
     0xEA6C,
@@ -276,7 +276,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/search-save.svg)](https://github.com/microsoft/vscode-codicons/search?q=search-save)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/search-save.svg)](https://github.com/microsoft/vscode-codicons/search?q=search-save)
   /// Codicon icon named "search save".
   static const IconData searchSave = IconData(
     0xEA6D,
@@ -284,7 +284,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/log-out.svg)](https://github.com/microsoft/vscode-codicons/search?q=log-out)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/log-out.svg)](https://github.com/microsoft/vscode-codicons/search?q=log-out)
   /// Codicon icon named "log out".
   static const IconData logOut = IconData(
     0xEA6E,
@@ -300,7 +300,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/log-in.svg)](https://github.com/microsoft/vscode-codicons/search?q=log-in)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/log-in.svg)](https://github.com/microsoft/vscode-codicons/search?q=log-in)
   /// Codicon icon named "log in".
   static const IconData logIn = IconData(
     0xEA6F,
@@ -324,7 +324,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/eye-unwatch.svg)](https://github.com/microsoft/vscode-codicons/search?q=eye-unwatch)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/eye-unwatch.svg)](https://github.com/microsoft/vscode-codicons/search?q=eye-unwatch)
   /// Codicon icon named "eye unwatch".
   static const IconData eyeUnwatch = IconData(
     0xEA70,
@@ -332,7 +332,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/eye-watch.svg)](https://github.com/microsoft/vscode-codicons/search?q=eye-watch)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/eye-watch.svg)](https://github.com/microsoft/vscode-codicons/search?q=eye-watch)
   /// Codicon icon named "eye watch".
   static const IconData eyeWatch = IconData(
     0xEA70,
@@ -348,7 +348,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/primitive-dot.svg)](https://github.com/microsoft/vscode-codicons/search?q=primitive-dot)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/primitive-dot.svg)](https://github.com/microsoft/vscode-codicons/search?q=primitive-dot)
   /// Codicon icon named "primitive dot".
   static const IconData primitiveDot = IconData(
     0xEA71,
@@ -356,7 +356,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/close-dirty.svg)](https://github.com/microsoft/vscode-codicons/search?q=close-dirty)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/close-dirty.svg)](https://github.com/microsoft/vscode-codicons/search?q=close-dirty)
   /// Codicon icon named "close dirty".
   static const IconData closeDirty = IconData(
     0xEA71,
@@ -364,7 +364,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint)
   /// Codicon icon named "debug breakpoint".
   static const IconData debugBreakpoint = IconData(
     0xEA71,
@@ -372,7 +372,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-disabled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-disabled)
   /// Codicon icon named "debug breakpoint disabled".
   static const IconData debugBreakpointDisabled = IconData(
     0xEA71,
@@ -380,7 +380,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-hint.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-hint)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-hint.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-hint)
   /// Codicon icon named "debug hint".
   static const IconData debugHint = IconData(
     0xEA71,
@@ -388,7 +388,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/terminal-decoration-success.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-success)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/terminal-decoration-success.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-success)
   /// Codicon icon named "terminal decoration success".
   static const IconData terminalDecorationSuccess = IconData(
     0xEA71,
@@ -412,7 +412,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/pencil.svg)](https://github.com/microsoft/vscode-codicons/search?q=pencil)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/pencil.svg)](https://github.com/microsoft/vscode-codicons/search?q=pencil)
   /// Codicon icon named "pencil".
   static const IconData pencil = IconData(
     0xEA73,
@@ -428,7 +428,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/issue-opened.svg)](https://github.com/microsoft/vscode-codicons/search?q=issue-opened)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/issue-opened.svg)](https://github.com/microsoft/vscode-codicons/search?q=issue-opened)
   /// Codicon icon named "issue opened".
   static const IconData issueOpened = IconData(
     0xEA74,
@@ -436,7 +436,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/gist-private.svg)](https://github.com/microsoft/vscode-codicons/search?q=gist-private)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/gist-private.svg)](https://github.com/microsoft/vscode-codicons/search?q=gist-private)
   /// Codicon icon named "gist private".
   static const IconData gistPrivate = IconData(
     0xEA75,
@@ -444,7 +444,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-fork-private.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-fork-private)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-fork-private.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-fork-private)
   /// Codicon icon named "git fork private".
   static const IconData gitForkPrivate = IconData(
     0xEA75,
@@ -460,7 +460,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/mirror-private.svg)](https://github.com/microsoft/vscode-codicons/search?q=mirror-private)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/mirror-private.svg)](https://github.com/microsoft/vscode-codicons/search?q=mirror-private)
   /// Codicon icon named "mirror private".
   static const IconData mirrorPrivate = IconData(
     0xEA75,
@@ -476,7 +476,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/remove-close.svg)](https://github.com/microsoft/vscode-codicons/search?q=remove-close)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/remove-close.svg)](https://github.com/microsoft/vscode-codicons/search?q=remove-close)
   /// Codicon icon named "remove close".
   static const IconData removeClose = IconData(
     0xEA76,
@@ -484,7 +484,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/x.svg)](https://github.com/microsoft/vscode-codicons/search?q=x)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/x.svg)](https://github.com/microsoft/vscode-codicons/search?q=x)
   /// Codicon icon named "x".
   static const IconData x = IconData(
     0xEA76,
@@ -492,7 +492,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/repo-sync.svg)](https://github.com/microsoft/vscode-codicons/search?q=repo-sync)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/repo-sync.svg)](https://github.com/microsoft/vscode-codicons/search?q=repo-sync)
   /// Codicon icon named "repo sync".
   static const IconData repoSync = IconData(
     0xEA77,
@@ -508,7 +508,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/clone.svg)](https://github.com/microsoft/vscode-codicons/search?q=clone)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/clone.svg)](https://github.com/microsoft/vscode-codicons/search?q=clone)
   /// Codicon icon named "clone".
   static const IconData clone = IconData(
     0xEA78,
@@ -532,7 +532,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/microscope.svg)](https://github.com/microsoft/vscode-codicons/search?q=microscope)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/microscope.svg)](https://github.com/microsoft/vscode-codicons/search?q=microscope)
   /// Codicon icon named "microscope".
   static const IconData microscope = IconData(
     0xEA79,
@@ -548,7 +548,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/device-desktop.svg)](https://github.com/microsoft/vscode-codicons/search?q=device-desktop)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/device-desktop.svg)](https://github.com/microsoft/vscode-codicons/search?q=device-desktop)
   /// Codicon icon named "device desktop".
   static const IconData deviceDesktop = IconData(
     0xEA7A,
@@ -564,7 +564,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/more.svg)](https://github.com/microsoft/vscode-codicons/search?q=more)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/more.svg)](https://github.com/microsoft/vscode-codicons/search?q=more)
   /// Codicon icon named "more".
   static const IconData more = IconData(
     0xEA7C,
@@ -580,7 +580,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/kebab-horizontal.svg)](https://github.com/microsoft/vscode-codicons/search?q=kebab-horizontal)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/kebab-horizontal.svg)](https://github.com/microsoft/vscode-codicons/search?q=kebab-horizontal)
   /// Codicon icon named "kebab horizontal".
   static const IconData kebabHorizontal = IconData(
     0xEA7C,
@@ -588,7 +588,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/mail-reply.svg)](https://github.com/microsoft/vscode-codicons/search?q=mail-reply)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/mail-reply.svg)](https://github.com/microsoft/vscode-codicons/search?q=mail-reply)
   /// Codicon icon named "mail reply".
   static const IconData mailReply = IconData(
     0xEA7D,
@@ -612,7 +612,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/organization-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=organization-filled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/organization-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=organization-filled)
   /// Codicon icon named "organization filled".
   static const IconData organizationFilled = IconData(
     0xEA7E,
@@ -620,7 +620,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/organization-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=organization-outline)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/organization-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=organization-outline)
   /// Codicon icon named "organization outline".
   static const IconData organizationOutline = IconData(
     0xEA7E,
@@ -636,7 +636,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/file-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=file-add)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/file-add.svg)](https://github.com/microsoft/vscode-codicons/search?q=file-add)
   /// Codicon icon named "file add".
   static const IconData fileAdd = IconData(
     0xEA7F,
@@ -652,7 +652,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/file-directory-create.svg)](https://github.com/microsoft/vscode-codicons/search?q=file-directory-create)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/file-directory-create.svg)](https://github.com/microsoft/vscode-codicons/search?q=file-directory-create)
   /// Codicon icon named "file directory create".
   static const IconData fileDirectoryCreate = IconData(
     0xEA80,
@@ -668,7 +668,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/trashcan.svg)](https://github.com/microsoft/vscode-codicons/search?q=trashcan)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/trashcan.svg)](https://github.com/microsoft/vscode-codicons/search?q=trashcan)
   /// Codicon icon named "trashcan".
   static const IconData trashcan = IconData(
     0xEA81,
@@ -684,7 +684,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/clock.svg)](https://github.com/microsoft/vscode-codicons/search?q=clock)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/clock.svg)](https://github.com/microsoft/vscode-codicons/search?q=clock)
   /// Codicon icon named "clock".
   static const IconData clock = IconData(
     0xEA82,
@@ -700,7 +700,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/file-directory.svg)](https://github.com/microsoft/vscode-codicons/search?q=file-directory)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/file-directory.svg)](https://github.com/microsoft/vscode-codicons/search?q=file-directory)
   /// Codicon icon named "file directory".
   static const IconData fileDirectory = IconData(
     0xEA83,
@@ -708,7 +708,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-folder.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-folder)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-folder.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-folder)
   /// Codicon icon named "symbol folder".
   static const IconData symbolFolder = IconData(
     0xEA83,
@@ -716,7 +716,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/logo-github.svg)](https://github.com/microsoft/vscode-codicons/search?q=logo-github)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/logo-github.svg)](https://github.com/microsoft/vscode-codicons/search?q=logo-github)
   /// Codicon icon named "logo github".
   static const IconData logoGithub = IconData(
     0xEA84,
@@ -724,7 +724,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/mark-github.svg)](https://github.com/microsoft/vscode-codicons/search?q=mark-github)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/mark-github.svg)](https://github.com/microsoft/vscode-codicons/search?q=mark-github)
   /// Codicon icon named "mark github".
   static const IconData markGithub = IconData(
     0xEA84,
@@ -748,7 +748,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/console.svg)](https://github.com/microsoft/vscode-codicons/search?q=console)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/console.svg)](https://github.com/microsoft/vscode-codicons/search?q=console)
   /// Codicon icon named "console".
   static const IconData console = IconData(
     0xEA85,
@@ -756,7 +756,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/repl.svg)](https://github.com/microsoft/vscode-codicons/search?q=repl)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/repl.svg)](https://github.com/microsoft/vscode-codicons/search?q=repl)
   /// Codicon icon named "repl".
   static const IconData repl = IconData(
     0xEA85,
@@ -764,7 +764,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/zap.svg)](https://github.com/microsoft/vscode-codicons/search?q=zap)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/zap.svg)](https://github.com/microsoft/vscode-codicons/search?q=zap)
   /// Codicon icon named "zap".
   static const IconData zap = IconData(
     0xEA86,
@@ -788,7 +788,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/stop.svg)](https://github.com/microsoft/vscode-codicons/search?q=stop)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/stop.svg)](https://github.com/microsoft/vscode-codicons/search?q=stop)
   /// Codicon icon named "stop".
   static const IconData stop = IconData(
     0xEA87,
@@ -796,7 +796,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/variable.svg)](https://github.com/microsoft/vscode-codicons/search?q=variable)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/variable.svg)](https://github.com/microsoft/vscode-codicons/search?q=variable)
   /// Codicon icon named "variable".
   static const IconData variable = IconData(
     0xEA88,
@@ -812,7 +812,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/array.svg)](https://github.com/microsoft/vscode-codicons/search?q=array)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/array.svg)](https://github.com/microsoft/vscode-codicons/search?q=array)
   /// Codicon icon named "array".
   static const IconData array = IconData(
     0xEA8A,
@@ -828,7 +828,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-module.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-module)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-module.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-module)
   /// Codicon icon named "symbol module".
   static const IconData symbolModule = IconData(
     0xEA8B,
@@ -836,7 +836,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-package.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-package)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-package.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-package)
   /// Codicon icon named "symbol package".
   static const IconData symbolPackage = IconData(
     0xEA8B,
@@ -852,7 +852,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-object.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-object)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-object.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-object)
   /// Codicon icon named "symbol object".
   static const IconData symbolObject = IconData(
     0xEA8B,
@@ -868,7 +868,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-function.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-function)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-function.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-function)
   /// Codicon icon named "symbol function".
   static const IconData symbolFunction = IconData(
     0xEA8C,
@@ -876,7 +876,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-constructor.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-constructor)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-constructor.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-constructor)
   /// Codicon icon named "symbol constructor".
   static const IconData symbolConstructor = IconData(
     0xEA8C,
@@ -892,7 +892,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-null.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-null)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-null.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-null)
   /// Codicon icon named "symbol null".
   static const IconData symbolNull = IconData(
     0xEA8F,
@@ -908,7 +908,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-number.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-number)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-number.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-number)
   /// Codicon icon named "symbol number".
   static const IconData symbolNumber = IconData(
     0xEA90,
@@ -924,7 +924,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-struct.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-struct)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-struct.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-struct)
   /// Codicon icon named "symbol struct".
   static const IconData symbolStruct = IconData(
     0xEA91,
@@ -940,7 +940,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-type-parameter.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-type-parameter)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-type-parameter.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-type-parameter)
   /// Codicon icon named "symbol type parameter".
   static const IconData symbolTypeParameter = IconData(
     0xEA92,
@@ -956,7 +956,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-text.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-text)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-text.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-text)
   /// Codicon icon named "symbol text".
   static const IconData symbolText = IconData(
     0xEA93,
@@ -964,7 +964,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-reference.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-reference)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-reference.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-reference)
   /// Codicon icon named "symbol reference".
   static const IconData symbolReference = IconData(
     0xEA94,
@@ -988,7 +988,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-value.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-value)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-value.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-value)
   /// Codicon icon named "symbol value".
   static const IconData symbolValue = IconData(
     0xEA95,
@@ -1004,7 +1004,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/symbol-unit.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-unit)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/symbol-unit.svg)](https://github.com/microsoft/vscode-codicons/search?q=symbol-unit)
   /// Codicon icon named "symbol unit".
   static const IconData symbolUnit = IconData(
     0xEA96,
@@ -1148,7 +1148,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint-conditional-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-conditional-disabled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint-conditional-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-conditional-disabled)
   /// Codicon icon named "debug breakpoint conditional disabled".
   static const IconData debugBreakpointConditionalDisabled = IconData(
     0xEAA7,
@@ -1172,7 +1172,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint-data-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-data-disabled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint-data-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-data-disabled)
   /// Codicon icon named "debug breakpoint data disabled".
   static const IconData debugBreakpointDataDisabled = IconData(
     0xEAA9,
@@ -1196,7 +1196,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint-log-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-log-disabled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint-log-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-log-disabled)
   /// Codicon icon named "debug breakpoint log disabled".
   static const IconData debugBreakpointLogDisabled = IconData(
     0xEAAB,
@@ -1332,7 +1332,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/circle-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=circle-outline)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/circle-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=circle-outline)
   /// Codicon icon named "circle outline".
   static const IconData circleOutline = IconData(
     0xEABC,
@@ -1348,7 +1348,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint-unverified.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-unverified)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint-unverified.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-unverified)
   /// Codicon icon named "debug breakpoint unverified".
   static const IconData debugBreakpointUnverified = IconData(
     0xEABC,
@@ -1356,7 +1356,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/terminal-decoration-incomplete.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-incomplete)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/terminal-decoration-incomplete.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-incomplete)
   /// Codicon icon named "terminal decoration incomplete".
   static const IconData terminalDecorationIncomplete = IconData(
     0xEABC,
@@ -1636,7 +1636,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/diff-sidebyside.svg)](https://github.com/microsoft/vscode-codicons/search?q=diff-sidebyside)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/diff-sidebyside.svg)](https://github.com/microsoft/vscode-codicons/search?q=diff-sidebyside)
   /// Codicon icon named "diff sidebyside".
   static const IconData diffSidebyside = IconData(
     0xEAE1,
@@ -1868,7 +1868,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/compare-changes.svg)](https://github.com/microsoft/vscode-codicons/search?q=compare-changes)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/compare-changes.svg)](https://github.com/microsoft/vscode-codicons/search?q=compare-changes)
   /// Codicon icon named "compare changes".
   static const IconData compareChanges = IconData(
     0xEAFD,
@@ -2012,7 +2012,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/bracket.svg)](https://github.com/microsoft/vscode-codicons/search?q=bracket)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/bracket.svg)](https://github.com/microsoft/vscode-codicons/search?q=bracket)
   /// Codicon icon named "bracket".
   static const IconData bracket = IconData(
     0xEB0F,
@@ -2156,7 +2156,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-pull-request-milestone.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-milestone)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-pull-request-milestone.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-milestone)
   /// Codicon icon named "git pull request milestone".
   static const IconData gitPullRequestMilestone = IconData(
     0xEB20,
@@ -2260,7 +2260,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/run.svg)](https://github.com/microsoft/vscode-codicons/search?q=run)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/run.svg)](https://github.com/microsoft/vscode-codicons/search?q=run)
   /// Codicon icon named "run".
   static const IconData run = IconData(
     0xEB2C,
@@ -2716,7 +2716,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/wrench.svg)](https://github.com/microsoft/vscode-codicons/search?q=wrench)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/wrench.svg)](https://github.com/microsoft/vscode-codicons/search?q=wrench)
   /// Codicon icon named "wrench".
   static const IconData wrench = IconData(
     0xEB65,
@@ -2724,7 +2724,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/wrench-subaction.svg)](https://github.com/microsoft/vscode-codicons/search?q=wrench-subaction)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/wrench-subaction.svg)](https://github.com/microsoft/vscode-codicons/search?q=wrench-subaction)
   /// Codicon icon named "wrench subaction".
   static const IconData wrenchSubaction = IconData(
     0xEB65,
@@ -2988,7 +2988,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/selection.svg)](https://github.com/microsoft/vscode-codicons/search?q=selection)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/selection.svg)](https://github.com/microsoft/vscode-codicons/search?q=selection)
   /// Codicon icon named "selection".
   static const IconData selection = IconData(
     0xEB85,
@@ -3020,7 +3020,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-breakpoint-function-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-function-disabled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-breakpoint-function-disabled.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-breakpoint-function-disabled)
   /// Codicon icon named "debug breakpoint function disabled".
   static const IconData debugBreakpointFunctionDisabled = IconData(
     0xEB88,
@@ -3044,7 +3044,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-stackframe-dot.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-stackframe-dot)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-stackframe-dot.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-stackframe-dot)
   /// Codicon icon named "debug stackframe dot".
   static const IconData debugStackframeDot = IconData(
     0xEB8A,
@@ -3052,7 +3052,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/terminal-decoration-mark.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-mark)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/terminal-decoration-mark.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-mark)
   /// Codicon icon named "terminal decoration mark".
   static const IconData terminalDecorationMark = IconData(
     0xEB8A,
@@ -3068,7 +3068,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/debug-stackframe-focused.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-stackframe-focused)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/debug-stackframe-focused.svg)](https://github.com/microsoft/vscode-codicons/search?q=debug-stackframe-focused)
   /// Codicon icon named "debug stackframe focused".
   static const IconData debugStackframeFocused = IconData(
     0xEB8B,
@@ -3164,7 +3164,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-pull-request-reviewer.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-reviewer)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-pull-request-reviewer.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-reviewer)
   /// Codicon icon named "git pull request reviewer".
   static const IconData gitPullRequestReviewer = IconData(
     0xEB96,
@@ -3196,7 +3196,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-pull-request-assignee.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-assignee)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-pull-request-assignee.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-pull-request-assignee)
   /// Codicon icon named "git pull request assignee".
   static const IconData gitPullRequestAssignee = IconData(
     0xEB99,
@@ -3292,7 +3292,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/issue-closed.svg)](https://github.com/microsoft/vscode-codicons/search?q=issue-closed)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/issue-closed.svg)](https://github.com/microsoft/vscode-codicons/search?q=issue-closed)
   /// Codicon icon named "issue closed".
   static const IconData issueClosed = IconData(
     0xEBA4,
@@ -3436,7 +3436,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/circle-large-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=circle-large-outline)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/circle-large-outline.svg)](https://github.com/microsoft/vscode-codicons/search?q=circle-large-outline)
   /// Codicon icon named "circle large outline".
   static const IconData circleLargeOutline = IconData(
     0xEBB5,
@@ -3452,7 +3452,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/gather.svg)](https://github.com/microsoft/vscode-codicons/search?q=gather)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/gather.svg)](https://github.com/microsoft/vscode-codicons/search?q=gather)
   /// Codicon icon named "gather".
   static const IconData gather = IconData(
     0xEBB6,
@@ -4012,7 +4012,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/terminal-decoration-error.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-error)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/terminal-decoration-error.svg)](https://github.com/microsoft/vscode-codicons/search?q=terminal-decoration-error)
   /// Codicon icon named "terminal decoration error".
   static const IconData terminalDecorationError = IconData(
     0xEBFB,
@@ -4100,7 +4100,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/map-horizontal.svg)](https://github.com/microsoft/vscode-codicons/search?q=map-horizontal)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/map-horizontal.svg)](https://github.com/microsoft/vscode-codicons/search?q=map-horizontal)
   /// Codicon icon named "map horizontal".
   static const IconData mapHorizontal = IconData(
     0xEC05,
@@ -4108,7 +4108,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/fold-horizontal.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-horizontal)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/fold-horizontal.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-horizontal)
   /// Codicon icon named "fold horizontal".
   static const IconData foldHorizontal = IconData(
     0xEC05,
@@ -4124,7 +4124,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/map-horizontal-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=map-horizontal-filled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/map-horizontal-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=map-horizontal-filled)
   /// Codicon icon named "map horizontal filled".
   static const IconData mapHorizontalFilled = IconData(
     0xEC06,
@@ -4132,7 +4132,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/fold-horizontal-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-horizontal-filled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/fold-horizontal-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-horizontal-filled)
   /// Codicon icon named "fold horizontal filled".
   static const IconData foldHorizontalFilled = IconData(
     0xEC06,
@@ -4476,7 +4476,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/fold-vertical.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-vertical)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/fold-vertical.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-vertical)
   /// Codicon icon named "fold vertical".
   static const IconData foldVertical = IconData(
     0xEC30,
@@ -4492,7 +4492,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/fold-vertical-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-vertical-filled)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/fold-vertical-filled.svg)](https://github.com/microsoft/vscode-codicons/search?q=fold-vertical-filled)
   /// Codicon icon named "fold vertical filled".
   static const IconData foldVerticalFilled = IconData(
     0xEC31,
@@ -4516,7 +4516,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/sort-percentage.svg)](https://github.com/microsoft/vscode-codicons/search?q=sort-percentage)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/sort-percentage.svg)](https://github.com/microsoft/vscode-codicons/search?q=sort-percentage)
   /// Codicon icon named "sort percentage".
   static const IconData sortPercentage = IconData(
     0xEC33,
@@ -4996,7 +4996,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-branch-create.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-branch-create)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-branch-create.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-branch-create)
   /// Codicon icon named "git branch create".
   static const IconData gitBranchCreate = IconData(
     0xEC6F,
@@ -5004,7 +5004,7 @@ class Codicons {
     fontPackage: 'vscode_codicons',
   );
 
-  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-24/icons/git-branch-delete.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-branch-delete)
+  /// [![](https://unpkg.com/@vscode/codicons@0.0.46-25/icons/git-branch-delete.svg)](https://github.com/microsoft/vscode-codicons/search?q=git-branch-delete)
   /// Codicon icon named "git branch delete".
   static const IconData gitBranchDelete = IconData(
     0xEC6F,
