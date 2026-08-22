@@ -1,12 +1,25 @@
 name: Update Codicons
 
-# The daily schedule self-checks `npm view '@vscode/codicons' version` against
-# pubspec.yaml and no-ops when already current. When a newer version is found,
-# the icon set is regenerated and a PR is opened. Still dispatchable on demand.
+# The daily schedule compares pubspec.yaml against the @vscode/codicons release
+# list and no-ops when already current. When upstream is ahead, the icon set is
+# regenerated for the *next* release only -- one PR per upstream version, so the
+# published Dart versions stay 1:1 with @vscode/codicons -- and the following
+# release waits until that PR lands. Still dispatchable on demand.
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * *" # daily 06:00 UTC
+    # Every 4 hours -- 6 runs a day. Each merged PR publishes one version, and
+    # pub.dev rate-limits `package-published` per package at 3 per 2 minutes,
+    # 6 per hour and 12 per day. A faster cadence would still merge and tag
+    # fine, so main would keep advancing while publish.yml alone failed.
+    - cron: 0 */4 * * *
+
+concurrency:
+  # The queue guard reads the open-PR list, so two overlapping runs could both
+  # see an empty queue and generate the same release. Never cancel in progress:
+  # a run killed between merge and tag leaves the mirror half-advanced.
+  group: update-icons
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -20,39 +33,69 @@ jobs:
   update-icons:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+      - uses: actions/checkout@v7
+        with:
+          ref: main
 
-      - name: Check for a newer @vscode/codicons release
+      - name: Pick the next @vscode/codicons release to mirror
         id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          latest="$(npm view '@vscode/codicons' version)"
           current="$(grep -E '^version:' pubspec.yaml | awk '{print $2}')"
-          # A package-side hotfix (e.g. 0.0.45+1) still tracks the same upstream
+          # A package-side hotfix (e.g. 1.24.0+1) still tracks the same upstream
           # release; strip the build number so it doesn't reopen the update PR daily.
           current="${current%%+*}"
-          echo "latest=$latest" >> "$GITHUB_OUTPUT"
           echo "current=$current" >> "$GITHUB_OUTPUT"
-          if [ "$latest" = "$current" ]; then
+
+          # One update PR at a time. An open PR is the head of the queue; opening
+          # the next one before it lands would release versions out of order.
+          # --limit: `gh pr list` fetches only 30 by default, and a guard that misses
+          # the queue head is worse than no guard.
+          open="$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json headRefName \
+            --jq '[.[] | select(.headRefName | startswith("chore/vscode-codicons-"))] | length')"
+          if [ "$open" != 0 ]; then
+            echo "An icon update PR is already open; waiting for it to land."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Advance one release at a time rather than jumping to `latest`, so no
+          # upstream version is skipped. `npm view` lists versions in semver
+          # order, so the next release is the entry after the current one.
+          versions="$(npm view '@vscode/codicons' versions --json)"
+          if ! jq -e --arg cur "$current" 'index($cur) != null' >/dev/null <<<"$versions"; then
+            # Upstream unpublished the version pubspec.yaml is on, so there is no
+            # position to advance from. Guessing would regenerate an older release
+            # and merge a downgrade onto main, whose tag already exists, leaving
+            # nothing publishable. Fail loudly so a maintainer reconciles instead.
+            echo "pubspec.yaml is on $current, which @vscode/codicons no longer publishes."
+            echo "Reconcile pubspec.yaml manually; refusing to guess the next release."
+            exit 1
+          fi
+          next="$(jq -r --arg cur "$current" '.[index($cur) + 1] // empty' <<<"$versions")"
+          if [ -z "$next" ]; then
             echo "Already on @vscode/codicons@$current; nothing to do."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "@vscode/codicons@$latest available (current: $current)."
+            echo "@vscode/codicons@$next available (current: $current)."
+            echo "next=$next" >> "$GITHUB_OUTPUT"
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Setup pnpm
         if: steps.check.outputs.changed == 'true'
-        uses: pnpm/action-setup@b906affcce14559ad1aafd4ab0e942779e9f58b1 # v4.3.0
+        uses: pnpm/action-setup@v4
 
       - name: Setup Node
         if: steps.check.outputs.changed == 'true'
-        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        uses: actions/setup-node@v7
         with:
           node-version: 22
 
       - name: Setup Flutter
         if: steps.check.outputs.changed == 'true'
-        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2.23.0
+        uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
@@ -60,7 +103,7 @@ jobs:
       - name: Regenerate icon set
         if: steps.check.outputs.changed == 'true'
         env:
-          NEW_VERSION: ${{ steps.check.outputs.latest }}
+          NEW_VERSION: ${{ steps.check.outputs.next }}
         run: |
           flutter pub get
           bash tool/update_icons.sh "$NEW_VERSION"
@@ -68,7 +111,7 @@ jobs:
       - name: Bump version and update changelog
         if: steps.check.outputs.changed == 'true'
         env:
-          NEW_VERSION: ${{ steps.check.outputs.latest }}
+          NEW_VERSION: ${{ steps.check.outputs.next }}
         run: |
           # Keep the package version in lockstep with @vscode/codicons.
           sed -i -E "s/^version: .*/version: ${NEW_VERSION}/" pubspec.yaml
@@ -142,19 +185,45 @@ jobs:
         run: flutter test
 
       - name: Open pull request
+        id: pr
         if: steps.check.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676 # v7.0.11
+        uses: peter-evans/create-pull-request@v7
         with:
-          branch: chore/vscode-codicons-${{ steps.check.outputs.latest }}
-          commit-message: "feat(icons): update icon set to @vscode/codicons@${{ steps.check.outputs.latest }}"
-          title: "feat(icons): update icon set to @vscode/codicons@${{ steps.check.outputs.latest }}"
+          base: main
+          token: ${{ secrets.RELEASE_TOKEN || github.token }}
+          branch: chore/vscode-codicons-${{ steps.check.outputs.next }}
+          commit-message: "feat(icons): update icon set to @vscode/codicons@${{ steps.check.outputs.next }}"
+          title: "feat(icons): update icon set to @vscode/codicons@${{ steps.check.outputs.next }}"
           body: |
             Automated regeneration triggered by a new @vscode/codicons release.
 
-            - "@vscode/codicons": `${{ steps.check.outputs.current }}` → `${{ steps.check.outputs.latest }}`
+            - "@vscode/codicons": `${{ steps.check.outputs.current }}` → `${{ steps.check.outputs.next }}`
 
             ${{ env.PR_SUMMARY }}
 
             Generated by `.github/workflows/update-icons.yml`.
           labels: dependencies, icons
           delete-branch: true
+
+      - name: Merge the pull request
+        if: steps.pr.outputs.pull-request-number != ''
+        env:
+          # RELEASE_TOKEN only -- never github.token. A merge pushed with the
+          # default token cannot trigger tag-release.yml, so the version would
+          # land on main untagged and never reach pub.dev. Without the secret
+          # the PR is left open for a manual merge, which is the current flow.
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          PR: ${{ steps.pr.outputs.pull-request-number }}
+          PR_SHA: ${{ steps.pr.outputs.pull-request-head-sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "RELEASE_TOKEN is not configured; leaving PR #${PR} for a manual merge."
+            exit 0
+          fi
+          # A plain merge, not --auto: this repo has no pull_request-triggered
+          # workflow, so auto-merge would have no check to wait for. The steps
+          # above are the gate. Add --auto once PR-time CI exists.
+          # --match-head-commit: the tests above vouch for this SHA only, and the
+          # merge releases immediately, so reject a head that moved since.
+          gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch \
+            --match-head-commit "$PR_SHA"
