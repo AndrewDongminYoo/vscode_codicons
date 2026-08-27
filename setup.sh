@@ -56,11 +56,6 @@ aarch64 | arm64) FLUTTER_ARCH="arm64" ;;
 esac
 export FLUTTER_ARCH FLUTTER_RELEASES_URL
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
-readonly SCRIPT_DIR
-[[ -f ${SCRIPT_DIR}/pubspec.yaml ]] || die "pubspec.yaml not found at ${SCRIPT_DIR}."
-cd "${SCRIPT_DIR}"
-
 TMP_DIR="$(mktemp -d)"
 readonly TMP_DIR
 trap cleanup EXIT
@@ -110,7 +105,7 @@ readonly FLUTTER_VERSION FLUTTER_ARCHIVE FLUTTER_SHA
 FLUTTER_BIN="${FLUTTER_INSTALL_DIR}/bin/flutter"
 if [[ -d ${FLUTTER_INSTALL_DIR} ]] &&
 	! git config --global --get-all safe.directory 2>/dev/null |
-		grep -Fqx -- "${FLUTTER_INSTALL_DIR}"; then
+	grep -Fqx -- "${FLUTTER_INSTALL_DIR}"; then
 	git config --global --add safe.directory "${FLUTTER_INSTALL_DIR}"
 fi
 
