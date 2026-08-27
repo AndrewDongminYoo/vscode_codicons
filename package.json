@@ -1,6 +1,6 @@
 {
   "packageManager": "pnpm@11.17.0",
   "dependencies": {
-    "@vscode/codicons": "0.0.46-24"
+    "@vscode/codicons": "0.0.46-25"
   }
 }
