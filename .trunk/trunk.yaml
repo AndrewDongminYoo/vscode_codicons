@@ -21,11 +21,11 @@ lint:
   disabled:
     - dart # trunk's built-in dart linter conflicts with the project SDK; use the dart-actions import sorter instead
     - oxipng # only PNGs are Flutter-generated launcher/launch icons in example/; optimizing them is no-value + asset-corruption risk
-    - pinact
   enabled:
     - osv-scanner@2.2.4
     - swiftformat@0.55.5
     - actionlint@1.7.12
+    - pinact@4.1.1
     - checkov@3.3.15
     - git-diff-check
     - ktlint@1.8.0
@@ -44,6 +44,8 @@ lint:
       paths: ["example/**"] # flutter-create scaffolding; this icon-font package has no hand-authored Swift
     - linters: [prettier, markdownlint]
       paths: ["**/Assets.xcassets/**"] # Xcode-managed asset catalogs and generated READMEs
+    - linters: [pinact]
+      paths: [".github/workflows/publish.yml"] # pub.dev reads the reusable workflow ref; keep @v1 unpinned
 actions:
   definitions:
     - id: dart-actions
