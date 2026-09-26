@@ -24,7 +24,7 @@ bash tool/update_icons.sh          # latest @vscode/codicons release
 bash tool/update_icons.sh 0.0.45   # pin a specific version
 ```
 
-A daily GitHub Actions workflow (`.github/workflows/update-icons.yml`) regenerates the icon set and opens a PR when a new upstream release is published.
+A four-hourly GitHub Actions workflow (`.github/workflows/update-icons.yml`) regenerates the icon set and opens a PR when a new upstream release is published.
 
 ## License
 
