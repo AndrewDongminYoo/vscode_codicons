@@ -35,9 +35,8 @@ class VSCodeApp extends StatelessWidget {
     return MaterialApp(
       title: 'VS Code (Codicons demo)',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(
-        useMaterial3: true,
-      ).copyWith(scaffoldBackgroundColor: VSC.bg),
+      theme: ThemeData.dark(useMaterial3: true)
+          .copyWith(scaffoldBackgroundColor: VSC.bg),
       home: const VSCodeShell(),
     );
   }

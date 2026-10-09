@@ -39,6 +39,7 @@ fi
 
 exec "${MERRY_SETUP_BIN}" setup \
 	--sdk flutter \
+	--sdk-version 3.47.7 \
 	--bootstrap flutter \
 	--persist-path bashrc \
 	--dart-package melos \
