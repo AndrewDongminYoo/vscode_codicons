@@ -19,9 +19,9 @@ runtimes:
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
   disabled:
+    - dart
     - oxipng # only PNGs are Flutter-generated launcher/launch icons in example/; optimizing them is no-value + asset-corruption risk
   enabled:
-    - dart@SYSTEM: { commands: [format] }
     - pinact@4.1.1: { commands: [lint, upgrade] }
     - osv-scanner@2.2.4
     - swiftformat@0.55.5
