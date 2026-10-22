@@ -20,6 +20,9 @@ updates:
           - "*"
   - package-ecosystem: npm
     directory: /
+    # The icon update workflow also regenerates the shipped assets.
+    ignore:
+      - dependency-name: "@vscode/codicons"
     schedule:
       interval: weekly
       day: monday
