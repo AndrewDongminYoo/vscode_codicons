@@ -2,8 +2,8 @@
 
 ## Approved direction
 
-The operator requested application SDK upgrades and compatible plugin formatting through the PR loop.
-The operator approved existing staged changes related to that migration.
+Application SDK upgrades and compatible plugin formatting were requested through the PR loop.
+Existing staged changes related to that migration were approved.
 
 ## Steps
 
@@ -11,7 +11,7 @@ The operator approved existing staged changes related to that migration.
 2. Disable Trunk Dart formatting and pin installed CI SDKs.
 3. Resolve affected manifests and regenerate affected code through its owning generator.
 4. Verify non-mutating Dart format checks, analysis, tests, and scoped Trunk checks.
-5. Review the complete migration, commit by concern, push, and open a PR for operator merge.
+5. Review the complete migration, commit by concern, push, and open a PR for user merge.
 
 ## Verification
 
