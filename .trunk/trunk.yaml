@@ -2,7 +2,7 @@
 # To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.25.0
+  version: 1.29.0
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
@@ -18,23 +18,27 @@ runtimes:
     - python@3.14.4
 # This is the section where you manage your linters. (https://docs.trunk.io/check/configuration)
 lint:
+  definitions:
+    - name: pinact
+      commands:
+        - name: upgrade
+          enabled: true
   disabled:
     - dart
     - oxipng # only PNGs are Flutter-generated launcher/launch icons in example/; optimizing them is no-value + asset-corruption risk
   enabled:
     - actionlint@1.7.12
-    - checkov@3.4.0
+    - checkov@3.4.3
     - git-diff-check
     - ktlint@1.8.0
     - markdownlint@0.50.0
-    - osv-scanner@2.2.4
-    - pinact@4.1.1!:
-        commands: [lint, upgrade]
+    - osv-scanner@2.7.0
+    - pinact@4.1.1!
     - prettier@3.9.10
     - shellcheck@0.11.0
-    - shfmt@3.13.1
-    - swiftformat@0.55.5
-    - trufflehog@3.95.9
+    - shfmt@3.14.1
+    - swiftformat@0.64.6
+    - trufflehog@3.99.8
     - yamllint@1.38.0
   ignore:
     - linters: [shellcheck]
