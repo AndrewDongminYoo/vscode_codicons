@@ -1,10 +1,8 @@
 // 🎯 Dart imports:
 import 'dart:math' as math;
 
-// 🐦 Flutter imports:
-import 'package:flutter/material.dart';
-
 // 📦 Package imports:
+import 'package:material_ui/material_ui.dart';
 import 'package:vscode_codicons/vscode_codicons.dart';
 
 /// Minimum layout width. On narrower screens (phones) the whole VS Code
