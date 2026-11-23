@@ -31,7 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  material_ui: ^1.11.0
+  material_ui: ^1.11.1
 
   # The package this example demonstrates.
   vscode_codicons:
